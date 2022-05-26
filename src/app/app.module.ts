@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BalanceComponent } from './balance/balance.component';
+import { WithdrawComponent } from './withdraw/withdraw.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BalanceComponent,
+    WithdrawComponent
   ],
   imports: [
     BrowserModule,
